@@ -48,7 +48,6 @@ namespace ConsoleApp5
             else
             {
                 Console.WriteLine("Blogas pasirinkimas...");
-                return;
             }
             
             Console.ReadLine();
