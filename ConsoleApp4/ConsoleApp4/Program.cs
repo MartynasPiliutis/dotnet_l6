@@ -10,6 +10,17 @@ namespace ConsoleApp4
     {
         static void Main(string[] args)
         {
+            int mase = 100;
+            int ugis = 2;
+            double kmi = paskaiciuojaKMI(mase, ugis);
+            Console.WriteLine(kmi);
+            Console.ReadLine();
+        }
+
+        static double paskaiciuojaKMI(int mase, int ugis)
+        {
+            double rezultatas = mase /Math.Pow(ugis, 2);
+            return rezultatas;
         }
     }
 }
